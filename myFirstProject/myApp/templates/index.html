@@ -1,7 +1,10 @@
+{% load static %} <!-- Load static files such as CSS, JavaScript, images, etc. -->
 <!DOCTYPE html>
 <html>
    <head>
        <title>First Django App</title>
+
+       <link rel="stylesheet" href="{% static 'styles/style.css' %}"> <!-- Link to the CSS file located in the static directory -->
    </head>
    <body style="background-color: black; color: white;">
        <h1>Welcome!</h1>
